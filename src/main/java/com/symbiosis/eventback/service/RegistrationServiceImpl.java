@@ -20,6 +20,7 @@ public class RegistrationServiceImpl implements RegistrationService {
 	@Override
 	public Registration save(Registration r) {
 		// TODO Auto-generated method stub
+		
 		return regRepo.save(r);
 	}
 
